@@ -1,0 +1,35 @@
+{
+  "name": "fs-project",
+  "version": "1.0.0",
+  "description": "Open DART API project with environment variable management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node webApp.js",
+    "dev": "node webApp.js",
+    "build": "echo 'Build completed'",
+    "download-corp-code": "node downloadCorpCode.js",
+    "parse-corp-code": "node parseCorpCode.js",
+    "search-company": "node parseCorpCode.js search",
+    "test-company-search": "node companySearch.js",
+    "test-financial-data": "node financialData.js",
+    "web": "node webApp.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  },
+  "keywords": [
+    "open-dart",
+    "api",
+    "environment-variables",
+    "financial-statement",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT"
+}

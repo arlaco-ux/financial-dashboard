@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "webApp.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/webApp.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/webApp.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
