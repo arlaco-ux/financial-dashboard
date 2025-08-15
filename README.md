@@ -3,7 +3,7 @@
 Open DART API를 활용한 실시간 재무제표 시각화 웹 애플리케이션입니다.
 
 ## 🌐 Live Demo
-배포된 애플리케이션을 확인하세요: [재무제표 대시보드](https://your-app-url.vercel.app)
+배포된 애플리케이션을 확인하세요: [재무제표 대시보드](https://financial-dashboard-oc7yhuabn-taeseong-lees-projects.vercel.app)
 
 ## 🚀 주요 기능
 
