@@ -33,7 +33,7 @@ class CompanySearch {
         const searchTerm = companyName.trim();
         const results = this.companies.filter(company => 
             company.corp_name && 
-            company.corp_name.toLowerCase().includes(searchTerm.toLowerCase())
+            company.corp_name.includes(searchTerm)
         );
 
         // 상장회사 우선 정렬
